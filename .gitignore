@@ -1,0 +1,15 @@
+﻿# Build artifacts
+*.exe
+*.out
+*.obj
+*.o
+
+# Logs and runtime data
+All-Contact.txt
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Editor settings
+.vscode/
