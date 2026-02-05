@@ -634,9 +634,9 @@ void guideline()
     printf("----------\n");
     printf("- Name matching is case-insensitive for search, edit, and delete.\n");
     printf("- If multiple contacts share a name, you can select which to edit or delete.\n");
-    printf("- Maximum name length: 20 characters.\n");
-    printf("- Maximum phone length: 20 characters.\n");
-    printf("- Maximum email length: 30 characters.\n\n");
+    printf("- Maximum name length: 50 characters.\n");
+    printf("- Maximum phone length: 25 characters.\n");
+    printf("- Maximum email length: 254 characters.\n\n");
     GoBackOrExit();
 }
 
