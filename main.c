@@ -10,11 +10,11 @@
 #define PHONE_MAX_LEN 25
 #define EMAIL_MAX_LEN 254
 
-typedef struct {
-    char name[NAME_MAX_LEN + 1];
-    char phone[PHONE_MAX_LEN + 1];
-    char email[EMAIL_MAX_LEN + 1];
-} Contact;
+struct Contact {
+    char name[50];
+    char phone[15];
+    char email[50];
+};
 
 bool isRunning = true;
 
@@ -649,7 +649,7 @@ void about()
     printf("Sadid Ahmed\n");
     printf("ID: 0112330154\n");
     printf("Telegram: @litch07\n\n");
-    printf("GitHub: https://github.com/litch07\n\n");
+    printf("GitHub: https://github.com/litch07/contact-manager-c\n\n");
     printf("For any queries, feel free to contact me.\n\n");
     GoBackOrExit();
 }
